@@ -1,4 +1,3 @@
-[2013-11-16 1010:1111:5757]    Login :: User:root Password:pepe
 [2013-11-16 10:31:58]    Login :: User:root Password:pepe
 [2013-11-16 10:37:12]    Login :: User:root Password:pepe
 [2013-11-16 10:37:38]    Login :: User:juan Password:pepe

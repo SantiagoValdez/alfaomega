@@ -1,7 +1,7 @@
 			To Do
 			======
 
-[o]		Otro cambio
+[x]		Otro cambio
 [X]		Login de Usuario
 [X]		Alta Usuario con «Mail»
 [X]		Adicion de productos al carrito.

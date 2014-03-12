@@ -3,6 +3,8 @@
 	session_start();
 	
 	require 'vendor/autoload.php';
+	require 'controllers/controllers.php';
+	require 'views/views.php';
 	
 	$twigView = new \Slim\Extras\Views\Twig();	
 	
@@ -15,6 +17,17 @@
 	/*
 		Genera la pagina principal
 	 */
+
+	/**
+	 * Example of modularity
+	 */
+
+	$app->get('/example', 'exampleIndexView');
+
+	// $app->get('/hello', function() use ($app){
+	// 	newUsuario();
+	// });
+
   	$app->get('/', function() use ($app) {
 		
   		if( !isset( $_SESSION['usuario'] ) ){

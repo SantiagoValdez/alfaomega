@@ -13,8 +13,13 @@
 		
 		$mensaje = newExample();
 
+		$empleados = getEmpleados();
+
+		//print_r($empleados);
+
 		$app->render('example.twig.html', array(
 				'mensaje' => $mensaje,
+				'empleados' => $empleados,
 		));
 
 

@@ -3,9 +3,23 @@
 	session_start();
 	
 	require 'vendor/autoload.php';
+	require_once 'vendor/idiorm.php';
 	require 'controllers/controllers.php';
 	require 'views/views.php';
 	
+
+
+	/* Configuracion de ORM */
+
+	ORM::configure(array(
+	    'connection_string' => 'mysql:host=localhost;dbname=alfaomega',
+	    'username' => 'root',
+	    'password' => 'pepe'
+	));
+	ORM::configure('return_result_sets', true);
+
+
+
 	$twigView = new \Slim\Extras\Views\Twig();	
 	
 	$app = new \Slim\Slim(array(
@@ -1045,6 +1059,8 @@
   		a la conexion de BD.
   	 */
 	function getConnection() {
+	    
+
 	    $dbhost="127.0.0.1";
 
 	    //$dbuser="marcossanabria";

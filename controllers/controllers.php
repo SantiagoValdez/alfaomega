@@ -8,7 +8,7 @@
 	
 	include "exampleController.php";
 
-	//include_once "usuarioController.php";
+	include_once "empleadoController.php";
 
 
 

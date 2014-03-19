@@ -1,4 +1,8 @@
 <?php
+/*
+* daisy estuvo aqui :)
+*/
+
 	mb_internal_encoding("UTF-8");
 	session_start();
 	

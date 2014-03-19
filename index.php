@@ -1,6 +1,7 @@
 <?php
 /*
 * daisy estuvo aqui :)
+* yo tambien
 */
 
 	mb_internal_encoding("UTF-8");
